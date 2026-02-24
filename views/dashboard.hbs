@@ -1,0 +1,17 @@
+{{> header}}
+
+<h1>Mis tareas</h1>
+
+<ul>
+  {{#each tareas}}
+    <li>{{this.titulo}}</li>
+  {{/each}}
+</ul>
+
+<h2>Agregar nueva tarea</h2>
+<form action="/nueva-tarea" method="POST">
+  <input type="text" name="titulo" placeholder="Nueva tarea" required>
+  <button type="submit">Agregar</button>
+</form>
+
+{{> footer}}

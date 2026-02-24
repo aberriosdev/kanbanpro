@@ -1,0 +1,13 @@
+{
+  "tareas": [
+    {
+      "titulo": "Estudiar Node.js"
+    },
+    {
+      "titulo": "Terminar el proyecto KanbanPro"
+    },
+    {
+      "titulo": "Comer papas fritas"
+    }
+  ]
+}
