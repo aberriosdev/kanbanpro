@@ -17,3 +17,27 @@ Prototipo funcional de una aplicación Kanban con renderizado del lado del servi
 - HTML / CSS  
 - JSON  
 - Nodemon  
+
+# EF- M6 Proyecto: "KanbanPro" - Sprint 2
+
+Implementación de la capa de datos para la aplicación KanbanPro utilizando PostgreSQL y Sequelize. Se crean los modelos, relaciones y scripts para poblar y probar la base de datos mediante operaciones CRUD.
+
+## Funcionalidades
+
+- Definición de modelos de datos: Usuario, Tablero, Lista y Tarjeta
+- Relaciones entre entidades usando Sequelize
+- Creación automática de tablas en PostgreSQL
+- Script para poblar la base de datos con datos de prueba (seed.js)
+- Script para probar operaciones CRUD (test-crud.js)
+
+## Tecnologías
+
+- Node.js
+- Express
+- PostgreSQL
+- Sequelize (ORM)
+- dotenv
+- Nodemon
+
+
+
