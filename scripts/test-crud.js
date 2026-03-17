@@ -14,7 +14,6 @@ async function testCRUD() {
     });
     console.log(JSON.stringify(tablero.toJSON(), null, 2));
 
-
     // CREATE
     console.log("Creando nueva tarjeta...");
     const nuevaTarjeta = await Tarjeta.create({
@@ -24,13 +23,11 @@ async function testCRUD() {
     });
     console.log("Tarjeta creada:", nuevaTarjeta.toJSON());
 
-
     // UPDATE
     console.log("Actualizando tarjeta...");
     nuevaTarjeta.titulo = "Tarea actualizada";
     await nuevaTarjeta.save();
     console.log("Tarjeta actualizada:", nuevaTarjeta.toJSON());
-
 
     // DELETE
     console.log("Eliminando tarjeta...");
