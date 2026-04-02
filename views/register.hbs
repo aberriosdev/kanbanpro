@@ -1,11 +1,19 @@
 {{> header}}
 
-<h1>Registro</h1>
-<form>
-  <input type="text" name="username" placeholder="Usuario">
-  <input type="password" name="password" placeholder="Contraseña">
-  <input type="text" name="email" placeholder="Correo Electrónico">
-  <button>Registrarse</button>
-</form>
+<main class="auth-container">
+    <h1>Crear Cuenta</h1>
+    <p>Únete a KanbanPro y organiza tus tareas hoy mismo.</p>
+
+    <form action="/api/auth/register" method="POST">
+        <input type="text" name="nombre" placeholder="Nombre de Usuario" required>
+        <input type="email" name="email" placeholder="Correo Electrónico" required>
+        <input type="password" name="password" placeholder="Contraseña" required>
+        <button type="submit">Registrarse</button>
+    </form>
+
+    <div style="margin-top: 1rem;">
+        <p>¿Ya tienes una cuenta? <a href="/login" style="color: #8e44ad; font-weight: bold;">Inicia sesión</a></p>
+    </div>
+</main>
 
 {{> footer}}

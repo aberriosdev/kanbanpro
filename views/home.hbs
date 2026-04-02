@@ -1,6 +1,30 @@
 {{> header}}
 
-<h1>Bienvenido a KanbanPro</h1>
-<p>Gestiona tus tareas de manera sencilla y eficiente.</p>
+<main class="auth-container" style="max-width: 600px;"> 
+ 
+    <div class="home-hero">
+        <h1 style="font-size: 2.5rem; color: #5d3a85;">¡Bienvenido a KanbanPro!</h1>
+        <p style="font-size: 1.2rem; color: #666; margin-bottom: 2rem;">
+            La herramienta definitiva para organizar tus proyectos con estilo y eficiencia.
+        </p>
+    </div>
+
+    <div class="home-features" style="text-align: left; margin-bottom: 2rem; background: #f0eefc; padding: 1.5rem; border-radius: 8px;">
+        <ul style="list-style: none; padding: 0;">
+            <li style="margin-bottom: 10px;">✨ <strong>Visualización Clara:</strong> Tableros tipo Kanban para tus tareas.</li>
+            <li style="margin-bottom: 10px;">🔒 <strong>Seguridad:</strong> Tus datos protegidos con tecnología JWT.</li>
+            <li style="margin-bottom: 10px;">🚀 <strong>Productividad:</strong> Crea listas y tarjetas en segundos.</li>
+        </ul>
+    </div>
+
+    <div class="home-actions" style="display: flex; gap: 15px; justify-content: center;">
+        <a href="/login" class="btn-auth" style="text-decoration: none; background: #8e44ad; color: white; padding: 10px 25px; border-radius: 6px; font-weight: bold;">
+            Iniciar Sesión
+        </a>
+        <a href="/register" style="text-decoration: none; border: 2px solid #8e44ad; color: #8e44ad; padding: 8px 25px; border-radius: 6px; font-weight: bold;">
+            Crear Cuenta
+        </a>
+    </div>
+</main>
 
 {{> footer}}
