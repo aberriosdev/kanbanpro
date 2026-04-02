@@ -23,7 +23,7 @@ Este proyecto demuestra el desarrollo de una aplicación **Full Stack**, integra
 
 ## 🚀 Demo en Vivo
 
-🔗 https://kanbanpro.onrender.com
+🔗 https://kanbanpro-nrbt.onrender.com
 
 ---
 
